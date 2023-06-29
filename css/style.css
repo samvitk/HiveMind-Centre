@@ -8,41 +8,72 @@ body {
 
 /* Header */
 
-#header {
+.navbar-brand > div {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.navbar-nav > span {
+	color: #fff;
+}
+
+.navbar-nav > .nav-item {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+#icon {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+/* Introduction */
+
+#introduction {
 	position: relative;
 	width: 100%;
-	height: 100vh;
-	background: linear-gradient(45deg, #000099, #000);
+	height: 90vh;
+	background: linear-gradient(to right, rgba(0,0,0,0) 30%, rgba(0,0,0,1)), url("samvit.png");
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#header::before {
+#introduction::before {
 	content: '';
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 200px;
+	height: 50px;
 	background: #fff;
 	clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+
 }
 
-.navbar-brand {
+.introduction-title {
 	color: #fff;
-	font-size: 1.75em;
-}
-
-#header-title1 {
-	font-size: 2.5em;
-}
-
-.header-text1 {
-	color: #fff;
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: bold;
+	text-align: center;
 	text-transform: uppercase;
+	padding: 10px;
+	margin: 25px;
+}
+
+.introduction-caption {
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-transform: capitalize;
 	padding: 10px;
 	margin: 25px;
 }
@@ -51,29 +82,27 @@ body {
 	color: #4d4dff;
 }
 
-#learn-more-button {
+.learn-more-button {
 	margin: auto;
-	width: 60%;
+	width: 50%;
 	background-color: #5200cc;
 	border: 2px solid #fff;
 	border-radius: 20px 20px 20px 20px;
 }
 
-#button-title {
+.button-title {
 	color: #fff;
 	font-size: 2em;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
 }
 
-#button-text {
+.button-caption {
 	color: #fff;
 	font-size: 1.25em;
 	font-weight: bold;
-}
-
-#button-text > span {
-	text-transform: uppercase;
+	text-align: center;
 }
 
 
