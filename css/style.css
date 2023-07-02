@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	box-sizing: border-box;
 }
 
 /* Header */
@@ -41,22 +42,11 @@ body {
 	position: relative;
 	width: 100%;
 	height: 90vh;
-	background: linear-gradient(to right, rgba(0,0,0,0) 30%, rgba(0,0,0,1)), url("samvit.png");
+	background: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(0,0,0,1)), url("https://images.pexels.com/photos/17310586/pexels-photo-17310586/free-photo-of-table-with-benches-on-river-bank-in-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-#introduction::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	background: #fff;
-	clip-path: polygon(100% 50%, 0 100%, 100% 100%);
-
 }
 
 .introduction-title {
@@ -105,7 +95,76 @@ body {
 	text-align: center;
 }
 
+/* Our Services */ 
+
+#service {
+	background-color: #000;
+}
+
+#service-tile {
+	height: 85vh;
+	border: 1px solid #b2c2d1;
+	background-color: #000;
+	margin-bottom: 25px;
+}
+
+.service-image1 {
+	background-image: url('https://images.pexels.com/photos/5968121/pexels-photo-5968121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 50%;
+}
+
+#service-main-title {
+	color: #fff;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 50px; 
+	margin-bottom: 50px;
+}
+
+.service-title {
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 25px;
+	color: #fff;
+}
 
 
+.services-info {
+	font-size: 1.25em;
+	text-align: left;
+	text-transform: capitalize;
+	padding: 5px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.apply {
+	margin-left: 25px;
+	width: 25%;
+	background-color: #b2ffe5;
+	border: 2px solid #fff;
+}
+
+.apply-text {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+
+.service-hr {
+  	border-top: 2px solid #b2c2d1;
+}
+
+.service-link, .service-link:hover {
+	text-decoration: none;
+}
+
+/* Media Queries */
 
 
