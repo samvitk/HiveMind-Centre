@@ -145,6 +145,7 @@ body {
 
 .apply {
 	margin-left: 25px;
+	margin-bottom: 25px;
 	width: 25%;
 	background-color: #b2ffe5;
 	border: 2px solid #fff;
@@ -163,6 +164,100 @@ body {
 
 .service-link, .service-link:hover {
 	text-decoration: none;
+}
+
+/* Recruitment */
+
+#recruitment {
+	background-color: #000;
+}
+
+#recruitment-tile {
+	height: 145vh;
+	border: 1px solid #b2c2d1;
+	background-color: #000;
+	margin-bottom: 25px;
+}
+
+.recruitment-image1 {
+	background-image: url('https://images.pexels.com/photos/5968121/pexels-photo-5968121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 50%;
+}
+
+#recruitment-main-title {
+	color: #fff;
+	font-size: 4em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px; 
+	margin-bottom: 50px;
+}
+
+.recruitment-title {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 25px;
+	color: #fff;
+}
+
+
+.recruitment-info {
+	font-size: 1.25em;
+	text-align: left;
+	text-transform: capitalize;
+	padding: 5px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.application {
+	width: 25%;
+	margin: auto;
+	margin-bottom: 25px;
+	background-color: #b2ffe5;
+	border: 2px solid #fff;
+}
+
+.application-text {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+
+.job-description-title {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 25px;
+	color: #fff;
+}
+
+.job-description-text {
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+.recruitment-hr {
+  	border-top: 2px solid #b2c2d1;
+}
+
+.recruitment-link, .recruitment-link:hover {
+	text-decoration: none;
+}
+
+#recruitment-tile:hover {
+	box-shadow: 5px #fff;
 }
 
 /* Media Queries */
